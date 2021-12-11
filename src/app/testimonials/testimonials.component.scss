@@ -1,0 +1,28 @@
+@import "../../crios-variables.scss";
+.testimonials{
+background: #F7F8FB;
+display: flex;
+}
+.user_bg{
+    background: url(../../assets/images/Snowflake.png) no-repeat;
+    background-size: 70%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+        max-width: 300px;
+    }
+
+
+}
+.test_names{
+    margin-top: 20px;
+    span{
+    color: $crios-primary-color;        
+    }
+
+}
