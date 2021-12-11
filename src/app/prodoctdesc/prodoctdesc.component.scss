@@ -1,0 +1,27 @@
+@import "../../crios-variables.scss";
+.product_wrap{
+    background: #f7f8fb;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+}
+.img_wrap{
+    img{
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+.content_wrap{
+    .about-desc{
+        h2{
+            color: $crios-primary-color;
+            font-size: 48px;
+        }
+        p{
+            margin: 20px 0;
+        }
+    }
+}
