@@ -1,0 +1,14 @@
+@import "../../crios-variables.scss";
+.slider_wrapper{
+
+background: url(../../assets/images/landing-bg.png) no-repeat;
+background-position:top;
+background-size: cover;
+height: 100%;
+min-height: 100vh;
+margin-top: 130px;
+}
+.slider_caption{
+    text-align: center;
+    width: 100%;
+}
