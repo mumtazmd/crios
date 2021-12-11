@@ -1,0 +1,48 @@
+@import "../../crios-variables.scss";
+.product-desc{
+    background: #fff;
+    position: relative;
+    z-index: 0;
+    .center-wrap{
+        padding: 98px 50px 26px 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img
+        {
+            width: 100%;
+            min-width: 340px;
+        }
+        .para{
+            padding: 0 0 0 65px;
+        }
+        p{
+            line-height: 36px;
+        }
+    }
+}
+.product-desc::before{
+    content: '';
+    background:url(../../assets/images/sn1-bg.png) no-repeat;
+    height: 100%;
+    max-width: 600px;
+    position: absolute;
+    top: 0px;
+    left: 86px;
+    background-size: 60%;
+    z-index: -1;
+    width: 100%;
+}
+
+.product-desc::after{
+    content: '';
+    background:url(../../assets/images/sn2-bg.png) no-repeat;
+    height: 260px;
+    max-width: 280px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-size: 100%;
+    z-index: -2;
+    width: 100%;
+}
