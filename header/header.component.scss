@@ -1,0 +1,64 @@
+@import "../../crios-variables.scss";
+// .header{
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// }
+.humberger_menu_bg, .search{
+    background: #fff;
+    box-shadow: 1px 2px 10px #dae4ef;
+    border-radius: 50%;
+    padding: 6px 11px;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+    img
+    {
+        height: 14px;
+        width: 100%;
+    }
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    width: 414px;
+    height: 414px;
+    border-radius: 207px;
+    filter: drop-shadow(0 0 32.5px rgba(218,229,239,0.55));
+    background-color: #ffffff;
+    margin-top: -235px;
+    box-shadow: 1px 2px 10px #dae4ef;
+    position: relative;
+    a{
+        color: $crios-secondary-color;
+        font-size: 48px;
+        position: absolute;
+        bottom: 80px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 14px;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    span{
+        position: absolute;
+        bottom: 65px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+        color: #4b5863;
+        font-weight: 700;
+        opacity: 0.1;
+
+    }
+}
+
